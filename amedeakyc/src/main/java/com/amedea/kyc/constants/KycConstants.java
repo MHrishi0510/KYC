@@ -18,5 +18,7 @@ public class KycConstants {
 	public static final String STATUS_CODE="status code";
 	public static final String NOT_APPLICABLE="NA";
 	public static final String WELCOME_USER="NA";
+	
+	
 
 }
