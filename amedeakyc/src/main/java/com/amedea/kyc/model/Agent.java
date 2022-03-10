@@ -4,16 +4,18 @@ public class Agent {
 	
 	private Integer AgentId;
 	private String AgentName;
+	private String AgentCity;
 	
 	public Agent() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Agent(Integer agentId, String agentName) {
+	public Agent(Integer agentId, String agentName, String agentCity) {
 		super();
 		AgentId = agentId;
 		AgentName = agentName;
+		AgentCity = agentCity;
 	}
 
 	public Integer getAgentId() {
@@ -32,10 +34,20 @@ public class Agent {
 		AgentName = agentName;
 	}
 
+	public String getAgentCity() {
+		return AgentCity;
+	}
+
+	public void setAgentCity(String agentCity) {
+		AgentCity = agentCity;
+	}
+
 	@Override
 	public String toString() {
-		return "Agent [AgentId=" + AgentId + ", AgentName=" + AgentName + "]";
+		return "Agent [AgentId=" + AgentId + ", AgentName=" + AgentName + ", AgentCity=" + AgentCity + "]";
 	}
+	
+	
 	
 	
 	
