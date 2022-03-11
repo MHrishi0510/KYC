@@ -16,4 +16,7 @@ public class KycConstants {
 	public static final String NOT_APPLICABLE = "NA";
 	public static final String WELCOME_USER = "NA";
 
+	
+	public static final String HELLO = "Hello_URL";
+
 }
