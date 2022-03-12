@@ -19,5 +19,7 @@ public class KycConstants {
 	
 	public static final String HELLO = "Hello_URL";
 	public static final String INDEX = "index_URL";
+	public static final String AGENT = "Agent_URL";
+	public static final String USER = "User_URL";
 
 }
