@@ -1,5 +1,6 @@
 package com.amedea.kyc.controllers;
 
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,10 +24,9 @@ public class UserController {
 		return KycConstants.USER_MESSAGE;
 	}
 	
-	@GetMapping (value= KycConstants.USER_INFO)
+	@GetMapping (value= KycConstants.USER_DATA)
 	public List<User> getUsers(){
 		
 		return service.getUserList();
 	}
-	
 }
