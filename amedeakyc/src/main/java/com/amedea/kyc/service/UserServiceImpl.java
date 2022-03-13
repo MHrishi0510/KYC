@@ -3,9 +3,11 @@ package com.amedea.kyc.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.amedea.kyc.model.User;
 
-
+@Service
 public class UserServiceImpl implements UserService {
 
 	private List<User> userList;

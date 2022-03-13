@@ -18,12 +18,13 @@ public class ClientServiceImpl implements ClientService {
 		Client cc2 = new Client(2, "KFC", "Pune");
 		Client cc3 = new Client(3, "Pizzahut", "Mumbai");
 		Client cc4 = new Client(4, "Varan-Bhat", "pune");
-		Client cc5 = new Client(4, "BiryaniBox", "pune");
+		Client cc5 = new Client(5, "BiryaniBox", "pune");
 		
 		clientList.add(cc1);
 		clientList.add(cc2);
 		clientList.add(cc3);
 		clientList.add(cc4);
+		clientList.add(cc5);
 	}
 
 	@Override
